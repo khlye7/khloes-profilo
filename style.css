@@ -1,5 +1,5 @@
 /* =========================
-   GLOBAL / RESET....
+GLOBAL / RESET....
 ========================= */
 * {
   box-sizing: border-box;
@@ -7,9 +7,9 @@
 
 body {
   margin: 0;
-  font-family: 'Montserrat', Arial, sans-serif;
-  background-color: #0b0c1a;
-  color: #f0f0f0;
+  font-family: 'Emilys Candy', cursive;
+  background-color: #ffeaf7;
+  color: #ffc7de;
   background-image: url("starry_sun.jpg");
   background-size: cover;
   background-repeat: repeat-y;
@@ -17,10 +17,10 @@ body {
 }
 
 /* =========================
-   NAVBAR
+NAVBAR
 ========================= */
 .navbar {
-  background-color: #1b1d3a;
+  background-color: #ffeaf7;
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
@@ -50,7 +50,7 @@ body {
 }
 
 /* =========================
-   PAGE LAYOUT
+PAGE LAYOUT
 ========================= */
 .home-card {
   max-width: 1200px;
@@ -59,10 +59,10 @@ body {
 }
 
 /* =========================
-   CARDS
+CARDS
 ========================= */
 .resource-card {
-  background-color: rgba(28, 31, 47, 0.95);
+  background-color: rgba(255, 241, 250, 0.95);
   margin: 2em auto;
   padding: 1.5em;
   border-radius: 12px;
@@ -70,7 +70,7 @@ body {
 }
 
 /* =========================
-   BIO SECTION
+BIO SECTION
 ========================= */
 .bio {
   display: flex;
@@ -83,7 +83,7 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #5555aa;
+  border: 3px solid #ff95c3ab;
   object-fit: cover;
 }
 
@@ -94,11 +94,11 @@ body {
 .bio-text h4 {
   margin-top: 0;
   font-weight: normal;
-  color: #ccccff;
+  color: #ff8cc4;
 }
 
 /* =========================
-   PROJECT LAYOUT
+PROJECT LAYOUT
 ========================= */
 .project {
   display: flex;
@@ -133,7 +133,7 @@ body {
 }
 
 /* =========================
-   LINKS / ICONS
+LINKS / ICONS
 ========================= */
 .skill-images {
   display: flex;
@@ -159,7 +159,7 @@ body {
 }
 
 /* =========================
-   FOOTER
+FOOTER
 ========================= */
 footer {
   text-align: center;
@@ -168,7 +168,7 @@ footer {
 }
 
 /* =========================
-   RESPONSIVE
+RESPONSIVE
 ========================= */
 @media (max-width: 900px) {
   .project {
