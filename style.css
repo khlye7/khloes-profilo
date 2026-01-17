@@ -9,7 +9,7 @@ body {
   margin: 0;
   font-family: 'Emilys Candy', cursive;
   background-color: #ffeaf7;
-  color: #ffc7de;
+  color: #ffb8d6;
   background-image: url("starry_sun.jpg");
   background-size: cover;
   background-repeat: repeat-y;
@@ -46,7 +46,7 @@ NAVBAR
 }
 
 .navbar-right a:hover {
-  color: #aaaaff;
+  color: #ffb6ef3f;
 }
 
 /* =========================
@@ -124,12 +124,12 @@ PROJECT LAYOUT
 
 .reflection h3 {
   margin-top: 0;
-  color: #aaaaff;
+  color: #000000;
 }
 
 .reflection p {
   font-size: 0.95em;
-  color: #dddddd;
+  color: #000000;
 }
 
 /* =========================
