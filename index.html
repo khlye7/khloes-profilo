@@ -1,177 +1,212 @@
+```html
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description" content="Senior fall Portfolio for Khloe Ross">
     <meta name="keywords" content="portfolio, Senior, projects, programming, web development">
-    <meta name="author" content="Khloe ross">
+    <meta name="author" content="Khloe Ross">
 
-    <title>Khloe Ross | Seniors final Portfolio</title>
+    <title>Khloe Ross | Seniors Final Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
-    
-    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
-  </head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Emilys+Candy&display=swap" rel="stylesheet">
 
-  <body>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f7f3f5;
+            color: #625d62;
+        }
+
+        h1 {
+            font-family: 'Emilys Candy', cursive;
+            color: #b98d9e;
+            font-size: 42px;
+        }
+
+        h2, h3 {
+            color: #81747c;
+        }
+
+        .resource-card {
+            border: 1px solid #ead9df;
+            border-radius: 15px;
+        }
+
+        .resume-btn {
+            display: inline-block;
+            font-family: 'Emilys Candy', cursive;
+            font-size: 21px;
+            color: #68616a;
+            background-color: #efd5de;
+            padding: 13px 28px;
+            border: 1px solid #d9b9c4;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: 0.3s ease;
+        }
+
+        .resume-btn:hover {
+            background-color: #dcbac7;
+            color: white;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+
+<body>
+
     <!-- NAVBAR -->
     <header>
-      <nav class="navbar">
-        <div class="navbar-left">
-          <img src="image copy 2.png" alt="Logo">
-        </div>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <img src="image copy 2.png" alt="Logo">
+            </div>
 
-        <ul class="navbar-right">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#cfus">CFUs</a></li>
-          <li><a href="#labs">Labs</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+            <ul class="navbar-right">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#cfus">CFUs</a></li>
+                <li><a href="#labs">Labs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class="home-card" id="home">
 
-      <!-- BIO -->
-      <section class="resource-card">
-        <div class="bio">
-          <div class="bio-pic">
-            <img src="Screenshot 2026-01-15 at 10.14.07 AM.png" alt="Your Photo">
-          </div>
+        <!-- BIO -->
+        <section class="resource-card">
+            <div class="bio">
+                <div class="bio-pic">
+                    <img src="Screenshot 2026-01-15 at 10.14.07 AM.png" alt="Your Photo">
+                </div>
 
-          <div class="bio-text">
-            <h1>Khloe Ross</h1>
-            <h4>student at Thomas A. Edison</h4>
-            <p>
-              Hii ! I am Khloe, a passionate aspiring game designer.<br>
-              My career goal is to create immersive and innovative games that inspire and entertain.<br>
-              This portfolio showcases my skills, projects, and growth over time.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- LINKS -->
-      <section class="resource-card">
-        <h2>Links</h2>
-
-        <div class="skill-images">
-          <a href="mailto:khloet@nycstudents.net" target="_blank">
-            <div class="picture">
-              <img class="link-pic" src="image copy.png" alt="Email">
+                <div class="bio-text">
+                    <h1>Khloe Ross</h1>
+                    <h4>student at Thomas A. Edison</h4>
+                    <p>
+                        Hii ! I am Khloe, a passionate aspiring game designer.<br>
+                        My career goal is to create immersive and innovative games that inspire and entertain.<br>
+                        This portfolio showcases my skills, projects, and growth over time.
+                    </p>
+                </div>
             </div>
-          </a>
+        </section>
 
-          <a href="https://www.linkedin.com/in/khloe-r-68900b36a/" target="_blank">
-           
-            <div class="image.png">
-              <img class="link-pic" src="image.png" alt="LinkedIn">
+        <!-- LINKS -->
+        <section class="resource-card">
+            <h2>Links</h2>
+
+            <div class="skill-images">
+                <a href="mailto:khloet@nycstudents.net" target="_blank">
+                    <div class="picture">
+                        <img class="link-pic" src="image copy.png" alt="Email">
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/khloe-r-68900b36a/" target="_blank">
+                    <div class="picture">
+                        <img class="link-pic" src="image.png" alt="LinkedIn">
+                    </div>
+                </a>
             </div>
-          </a>
-        </div>
-      </section>
 
-      <!-- PROJECTS -->
-      <section class="resource-card" id="projects">
-        <h2>Featured Projects</h2>
+            <a href="khloe-ross-resume.pdf" target="_blank" class="resume-btn">
+                ♡ View My Resume
+            </a>
+        </section>
 
-        <div class="project">
-          <iframe src="https://py3.codeskulptor.org/#user311_vC0Gsvs4wnIqrZR.py"></iframe>
-          <div class="reflection">
-            <h3>Piggy Bank </h3>
+        <!-- PROJECTS -->
+        <section class="resource-card" id="projects">
+            <h2>Featured Projects</h2>
+
+            <div class="project">
+                <iframe src="https://py3.codeskulptor.org/#user311_vC0Gsvs4wnIqrZR.py"></iframe>
+                <div class="reflection">
+                    <h3>Piggy Bank</h3>
+                    <p>This project helped me understand Python basics like variables and logic. I practiced problem-solving and debugging while making sure my code worked correctly.</p>
+                    <p><strong>Skills:</strong> Python, CodeSkulptor</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <iframe src="https://py3.codeskulptor.org/#user311_ROfufnzF0gCYCqA.py"></iframe>
+                <div class="reflection">
+                    <h3>Animation Project</h3>
+                    <p>This animation project helped me learn functions and sequencing. It showed my growth in both logic and creativity.</p>
+                    <p><strong>Skills:</strong> Python</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <iframe src="https://earsketch.gatech.edu/earsketch2/?sharing=a-PYxs667w4ZjCaddMxeKQ"></iframe>
+                <div class="reflection">
+                    <h3>Create Your Own Ringtone</h3>
+                    <p>I used Python with EarSketch to create music through code. This project showed me how programming can be creative.</p>
+                    <p><strong>Skills:</strong> Python, EarSketch</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <iframe src="https://earsketch.gatech.edu/earsketch2/?sharing=U0CatNrRHXlyoz_TC4D3Gg"></iframe>
+                <div class="reflection">
+                    <h3>Holiday Remix Challenge</h3>
+                    <p>This remix helped me understand timing and sound layering. I learned how loops work in music coding.</p>
+                    <p><strong>Skills:</strong> Python, EarSketch</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CFUS -->
+        <section class="resource-card" id="cfus">
+            <h2>CFUs & Cert Prep</h2>
+            <ul>
+                <li>CFU 15</li>
+                <li>CFU 16</li>
+                <li>Functions Arcade</li>
+                <li>Cert Prep</li>
+            </ul>
+
+            <a href="https://khlye7.github.io/cert-prep/" target="_blank">
+                View Cert Prep Project
+            </a>
+        </section>
+
+        <!-- LABS -->
+        <section class="resource-card" id="labs">
+            <h2>Labs</h2>
             <p>
-              This project helped me understand Python basics like variables and logic.
-              I practiced problem-solving and debugging while making sure my code worked correctly.
+                Throughout the semester, I completed multiple Python and HTML labs.
+                These labs helped reinforce concepts and improve my coding confidence.
             </p>
-            <p><strong>Skills:</strong> Python, CodeSkulptor</p>
-          </div>
-        </div>
+        </section>
 
-        <div class="project">
-          <iframe src="https://py3.codeskulptor.org/#user311_ROfufnzF0gCYCqA.py"></iframe>
-          <div class="reflection">
-            <h3>Animation Project</h3>
+        <!-- CONTACT -->
+        <section class="resource-card" id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:khloet@nycstudents.net">khloet@nycstudents.net</a></p>
             <p>
-              This animation project helped me learn functions and sequencing.
-              It showed my growth in both logic and creativity.
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/khloe-r-68900b36a/" target="_blank">
+                    Khloe Ross
+                </a>
             </p>
-            <p><strong>Skills:</strong> Python</p>
-          </div>
-        </div>
-
-        <div class="project">
-          <iframe src="https://earsketch.gatech.edu/earsketch2/?sharing=a-PYxs667w4ZjCaddMxeKQ"></iframe>
-          <div class="reflection">
-            <h3>Create Your Own Ringtone</h3>
-            <p>
-              I used Python with EarSketch to create music through code.
-              This project showed me how programming can be creative.
-            </p>
-            <p><strong>Skills:</strong> Python, EarSketch</p>
-          </div>
-        </div>
-
-        <div class="project">
-          <iframe src="https://earsketch.gatech.edu/earsketch2/?sharing=U0CatNrRHXlyoz_TC4D3Gg"></iframe>
-          <div class="reflection">
-            <h3>Holiday Remix Challenge</h3>
-            <p>
-              This remix helped me understand timing and sound layering.
-              I learned how loops work in music coding.
-            </p>
-            <p><strong>Skills:</strong> Python, EarSketch</p>
-          </div>
-        </div>
-      </section>
-
-      <!-- CFUS -->
-      <section class="resource-card" id="cfus">
-        <h2>CFUs & Cert Prep</h2>
-        <ul>
-          <li>CFU 15</li>
-          <li>CFU 16</li>
-          <li>Functions Arcade</li>
-          <li>Cert Prep</li>
-        </ul>
-
-        <a href="https://khlye7.github.io/cert-prep/" target="_blank">
-          View Cert Prep Project
-        </a>
-      </section>
-
-      <!-- LABS -->
-      <section class="resource-card" id="labs">
-        <h2>Labs</h2>
-        <p>
-          Throughout the semester, I completed multiple Python and HTML labs.
-          These labs helped reinforce concepts and improve my coding confidence.
-        </p>
-      </section>
-
-      <!-- CONTACT -->
-      <section class="resource-card" id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:khloet@nycstudents.net">khloet@nycstudents.net</a></p>
-        <p>
-          LinkedIn:
-          <a href="https://www.linkedin.com/in/khloe-r-68900b36a/" target="_blank">
-            Khloe Ross
-          </a>
-        </p>
-      </section>
+        </section>
 
     </main>
 
     <footer class="resource-card">
-      <p> 2026 Khloe Ross | Senior Final Portfolio</p>
+        <p>2026 Khloe Ross | Senior Final Portfolio</p>
     </footer>
-  </body>
+
+</body>
 </html>
+```
